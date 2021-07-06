@@ -1,20 +1,98 @@
 body {
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
 }
 .purple-color {
   color: purple;
+}
+section {
+  display: flex;
 }
 .half-width {
   width: 50%;
   padding: 5%;
 }
+.half-width p {
+  font-size: 15px;
+}
 .half-width img {
-  width: 50%;
+  width: 90%;
 }
 .link-button {
   text-decoration: none;
-  background-color: linear-gradient(silver, black);
+  background-image: linear-gradient(purple, rgb(168, 134, 182));
   font-weight: 700;
-  padding: 10px 35px;
+  padding: 10px 40px;
   border-radius: 5px;
+  color: white;
+}
+h1 {
+  font-size: 60px;
+}
+.word-position {
+  text-align: center;
+  background-image: url(images/shapes/icon3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+.top-banner {
+  background-image: url(images/shapes/Frame\ 56.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.box-in {
+  display: flex;
+  margin-bottom: 100px;
+}
+#first-box {
+  border-image: 1;
+}
+#second-box {
+  border-image: 1;
+}
+#third-box {
+  border-image: 1;
+}
+.box-item {
+  width: 25%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  box-shadow: 20px 20px 30px;
+  text-align: center;
+}
+.box-item h2 {
+  font-weight: 800;
+}
+.box-item p {
+  font-size: 15px;
+}
+.box-item img {
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#experienc-area {
+  border-image: 1;
+}
+.select-box {
+  width: 95%;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 100px;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.footer-color {
+  color: orangered;
+}
+footer p {
+  font-size: 10px;
 }
